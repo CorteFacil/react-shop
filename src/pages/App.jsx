@@ -42,9 +42,9 @@ function App() {
               element={<CreateProductPage />}
             />
             <Route
-  path="/clientes"
-  element={<ClientesPage />}
-/>
+            path="/clientes"
+            element={<ClientesPage />}
+            />
           </Routes>
         </main>
         <Footer />
